@@ -1,0 +1,33 @@
+{
+  "name": "hapi_experiments",
+  "version": "1.0.0",
+  "description": "experiments related to the Hapi server api",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osukaa/hapi_experiments.git"
+  },
+  "keywords": [
+    "hapi",
+    "ava",
+    "testing",
+    "experiments"
+  ],
+  "author": "Oscar Funes <me@oscarfunes.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osukaa/hapi_experiments/issues"
+  },
+  "homepage": "https://github.com/osukaa/hapi_experiments#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/wreck": "^17.0.0",
+    "make-promises-safe": "^5.1.0"
+  },
+  "volta": {
+    "node": "12.16.3"
+  }
+}
